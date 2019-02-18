@@ -12,6 +12,8 @@ class App extends Component {
         <div>
           <MapView />
         </div>
+        <footer>
+        </footer>
       </div>
     );
   }
