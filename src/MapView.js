@@ -16,13 +16,13 @@ class MapView extends Component {
     return (
       <div className="map-container">
         <Map
-          style="mapbox://styles/mapbox/streets-v8"
+          style="mapbox://styles/mapbox/outdoors-v9"
           containerStyle={{ height: "600px", width: "100%"}}
           center={[ -111.876183, 40.758701 ]}
           zoom={[9]}
           >
             <Layer type="symbol" >
-              
+
             </Layer>
             <ZoomControl />
         </Map>
